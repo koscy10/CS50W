@@ -1,0 +1,23 @@
+<form>
+	<!-- Liste déroulante simple -->
+	<label for="category">Vous êtes un développeur :</label>
+	<select id="category" name="category" required>
+		<option value="back">Back</option>
+		<option value="front">Front</option>
+		<option value="full-stack" selected>Full-stack</option>
+	</select>
+
+	<!-- Liste déroulante stucturée -->
+	<label for="languages">Votre langage préféré parmi :</label>
+	<select id="languages" name="languages">
+		<optgroup label="Front">
+			<option value="html">HTML</option>
+			<option value="css">CSS</option>
+			<option value="js">Javascript</option>
+		</optgroup>
+		<optgroup label="Back">
+			<option value="php">PHP</option>
+			<option value="ruby">Ruby</option>
+		</optgroup>
+	</select>
+</form>
